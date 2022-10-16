@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grid {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*-----------------------------Ofertas---------------------------*/
+
+.card {
+    width: 215px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0 0 30px black;
+    background: linear-gradient(to right, var(--cores-decantes));
+    z-index: 999;
+    animation: coresDancantes 2s linear infinite;
+    color: white;
+}
+
+@keyframes coresDancantes {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+
+.card a {
+    color: white;
+    text-decoration: none;
+    background-color: #C31616;
+    padding: 8px 20px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.card *:not(:first-child){
+    margin: 8px 12px;
+}
