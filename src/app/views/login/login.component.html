@@ -1,2 +1,32 @@
-<p>login works!</p>
-<a routerLink="">home</a>
+<section class="area_login">
+  <div class="login">
+    <div class="logo">
+      <img src="/assets/img/e_playerslogo.png" alt="logo do e-players" />
+      <p>Login</p>
+    </div>
+    <form (ngSubmit)="receberDados()" action="POST">
+      <input
+        id="login"
+        type="email"
+        name="email"
+        placeholder="E-mail"
+        [(ngModel)]="userModel.email"
+      />
+      <input
+        id="senha"
+        name="senha"
+        type="password"
+        placeholder="Senha"
+        [(ngModel)]="userModel.password"
+      />
+      <div class="remember_me">
+        <input type="checkbox" name="checkbox" value="value" />
+        <p>Lembrar de mim</p>
+      </div>
+      <input type="submit" value="Fazer login  " />
+    </form>
+    <p class="forgot_password">
+      Esqueceu sua senha ? <a href="#"> Clique aqui</a>
+    </p>
+  </div>
+</section>

@@ -1,0 +1,211 @@
+footer {
+    background-color: rgba(1, 1, 1, 1);
+}
+
+.rodape {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.links_footer {
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.alinhamento_footer_links {
+    padding: 15px;
+    font-family: 'Titillium Web';
+}
+
+
+.links_footer a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif;
+    
+}
+
+.links_footer a:hover {
+    color: #C31616;
+
+}
+
+footer .logo {
+    width: 250px;
+    height: 30px;
+    margin-top: 100px;
+
+}
+
+.info_contato {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 25px;
+    font-size: 16px; 
+    font-family: 'Titillium Web';
+}
+
+.form {
+    font-size: 0;
+}
+
+.form input {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Titillium Web';
+}
+
+.form button {
+    width: 156px;
+    height: 45px;
+    background-color: rgba(0, 31, 112, 1);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Titillium Web';
+}
+
+.form button:hover {
+    background-color: #C31616;
+
+}
+
+.siganos {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    font-family: 'Titillium Web';
+}
+
+.siganos h2 {
+    font-family: 'Titillium Web';
+    font-size: 23px;
+
+}
+
+
+
+@media screen and (max-width: 1100px) {  
+
+    .alinhamento_footer_links {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .links_footer a {
+        font-size: 15px;        
+    }
+
+    .links_footer h2 {
+        font-size: 20px;        
+    }
+
+
+    footer .logo {
+        width: 180px;
+        height: 20px;
+        margin-top: 100px;
+    }
+
+    .form input {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        font-family: 'Titillium Web';
+    }
+    
+    .form button {
+        width: 100px;
+        height: 45px;
+        font-size: 15px;
+    }
+    
+    .siganos {
+        margin: 0px;
+        margin-top: 5px;
+    }
+
+    .siganos h2 {
+        font-size: 15px;
+    }
+
+    .siganos img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .links_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        font-size: 25px;
+
+    }
+
+    .links_footer h2 {
+        font-size: 35px; 
+        padding-top: 0px;
+        margin: 0px;   
+    }
+
+    footer .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+
+    .info_contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        padding-top: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form input {
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .form button {
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .siganos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .siganos_link {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around   ;
+        width: 300px;
+    }
+
+}

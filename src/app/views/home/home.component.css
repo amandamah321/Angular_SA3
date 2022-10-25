@@ -1,49 +1,4 @@
 
-h1 {
-    display: none;
-}
-
-header {
-    background-color: #1E1C21;
-    height: 80px;
-}
-
-.cabecalho_alinhamento {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.menu {
-    width: 660px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.menu a:hover {
-    color: red;
-    scale: 1.1;
-}
-
-.barras {
-    display: none;
-    color: aliceblue;
-    text-decoration: none;
-}
-
-.barras:hover {
-    color: #C31616;
-    zoom: 250%;
-}
 
 /* ----------------------------------- Banner Principal-----------------------------------------------------*/
 
@@ -224,95 +179,6 @@ h2 {
 
 /*-------------------------------------Footer----------------------------------------*/
 
-footer {
-    background-color: rgba(1, 1, 1, 1);
-}
-
-.rodape {
-    height: 250px;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-.links_footer {
-    display: flex;
-    color: rgba(255, 255, 255, 1);
-    
-}
-
-.alinhamento_footer_links {
-    padding: 15px;
-    font-family: 'Titillium Web';
-}
-
-
-.links_footer a {
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Titillium Web", sans-serif;
-    
-}
-
-.links_footer a:hover {
-    color: #C31616;
-
-}
-
-footer .logo {
-    width: 250px;
-    height: 30px;
-    margin-top: 100px;
-
-}
-
-.info_contato {
-    color: rgba(255, 255, 255, 1);
-    padding-top: 25px;
-    font-size: 16px; 
-    font-family: 'Titillium Web';
-}
-
-.form {
-    font-size: 0;
-}
-
-.form input {
-    width: 180px;
-    height: 40px;
-    font-size: 20px;
-    font-family: 'Titillium Web';
-}
-
-.form button {
-    width: 156px;
-    height: 45px;
-    background-color: rgba(0, 31, 112, 1);
-    font-size: 20px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Titillium Web';
-}
-
-.form button:hover {
-    background-color: #C31616;
-
-}
-
-.siganos {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
-    align-items: center;
-    font-family: 'Titillium Web';
-}
-
-.siganos h2 {
-    font-family: 'Titillium Web';
-    font-size: 23px;
-
-}
 
 
 
@@ -320,15 +186,6 @@ footer .logo {
 /* ----------------------------------- Media ------------------------------------------------------*/
 
 @media screen and (max-width: 1100px) {
-    
-    .menu a {
-        font-size: 16px;
-    }
-
-    .logo {
-        width: 220px;
-        margin-right: 20px;
-    }
 
     .text_banner_bottom span {
         font-size: 20px;
@@ -395,33 +252,6 @@ footer .logo {
 }
 
 @media screen and (max-width: 768px) {
-    .cabecalho_alinhamento {
-        position: relative;
-
-    }
-   
-    .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        right: 0px;
-        width: 130px;
-        top: 70px; 
-        background-color:#f6f5f8de;
-        border-radius: 10px;
-    }
-
-    .menu a {
-        margin: 10px;
-        text-align: end;
-        color: #1E1C21;
-        font-weight: bolder;
-        
-    }
-
-    .barras {
-        display: flex;
-    }
     .banner_bottom_image {
         display: none;
         
