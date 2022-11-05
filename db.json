@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "amanda@email.com",
+      "password": "$2a$10$ijWtjTkqoUdaze/RApTa0O0OGMOyFmoKCCiWetlVFo7za1h8BtHxS",
+      "name": "Amanda",
+      "idade": 26,
+      "id": 1
+    },
+    {
+      "email": "gabi@email.com",
+      "password": "$2a$10$y.3AyBepL8IguYYYvJ.cROUN46s5.VhrPILAPZLHCgz1NouNpKzEq",
+      "name": "Gabi",
+      "idade": 26,
+      "id": 2
+    }
+  ],
+  "produtos": []
+}

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/models/user';
+import { LoginService } from 'src/app/service/login.service';
 
 @Component({
   selector: 'app-login',
@@ -8,15 +9,17 @@ import { User } from 'src/app/models/user';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private loginService: LoginService) { }
   ngOnInit(): void {
   }
 
   userModel = new User();
 
   receberDados() {
-    console.log(this.userModel);
+    
+    this.loginService.login(this.userModel).subscribe({
+      next: (Response) => {console.log()}
+    })
     
   }
 
